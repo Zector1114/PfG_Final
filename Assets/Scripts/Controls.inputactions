@@ -1,0 +1,34 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "e7773e79-90aa-4d37-b7d7-24a824c11d53",
+            "actions": [
+                {
+                    "name": "ToggleDirection",
+                    "type": "Button",
+                    "id": "4dfbc541-dd5e-4746-ad03-1b5a622eb060",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "adf766a9-3c19-4a75-9075-33e4de372bdf",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDirection",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
